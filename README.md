@@ -1,6 +1,6 @@
 # React Markdown Previewer
 
-This is a freeCodeCamp certification project for the Front End Libraries certification. It is a simple React application that allows you to preview Markdown text in real-time.
+This is a freeCodeCamp certification project for the Front End Libraries certification. It is a React application that allows you to preview Markdown text in real-time.
 
 ## Installation
 
