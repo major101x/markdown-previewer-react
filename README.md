@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# React Markdown Previewer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a freeCodeCamp certification project for the Front End Libraries certification. It is a simple React application that allows you to preview Markdown text in real-time.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+To run the Markdown Previewer locally, follow these steps:
 
-### `npm start`
+1. Clone the repository: `git clone https://github.com/major101x/markdown-previewer-react.git`
+2. Navigate to the project directory: `cd markdown-previewer-react`
+3. Install the dependencies: `npm install`
+4. Start the application: `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Once the application is running, you can open it in your browser and start entering Markdown text in the editor. The preview area will display the rendered HTML output in real-time.
 
-### `npm test`
+### Markdown Syntax
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The application supports the following Markdown syntax:
 
-### `npm run build`
+- Headings: Use one to six `#` symbols for different heading levels.
+- Bold and Italic Text: Enclose the text in double `**` or single `*` asterisks for bold or italic respectively.
+- Links: Enclose the link text in square brackets `[ ]` and the URL in parentheses `( )`.
+- Blockquotes: Use the `>` symbol at the beginning of a line to create a blockquote.
+- Code Blocks: Surround the code block with triple backticks (```) before and after.
+- Lists: Use hyphens `-` or numbers followed by periods `1.` for unordered and ordered lists respectively.
+- Images: Use an exclamation mark `!` followed by square brackets `[ ]` for alt text and parentheses `( )` for the image URL.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Feel free to explore the example Markdown text provided in the initial editor content.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Credits
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This Markdown Previewer was created as a freeCodeCamp certification project for the Front End Libraries certification. It uses React and the [marked.js](https://github.com/markedjs/marked/blob/master/README.md) library for Markdown parsing and rendering.
 
-### `npm run eject`
+The project structure and initial code were inspired by freeCodeCamp's curriculum.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Demo
+You can visit a demo of this site at [React Markdown Previewer](https://major101x.github.io/markdown-previewer-react/)
